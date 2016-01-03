@@ -133,6 +133,7 @@
               <goal>jar</goal>
             </goals>
             <configuration>
+              <failOnError>false</failOnError>
               <additionalparam>-Xdoclint:none</additionalparam>
             </configuration>
           </execution>

@@ -22,7 +22,7 @@ public final class GeometryUtils {
      * @param lineB
      * @return a point where the lines intersect, or null if they don't (are parallel or overlap)
      *
-     * @see https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection
+     * @see <a href="https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection">Wikipedia Line intersection</a>
      */
     public static Coordinate getIntersectionPoint(LineSegment lineA, LineSegment lineB) {
         double x1 = lineA.p0.x;

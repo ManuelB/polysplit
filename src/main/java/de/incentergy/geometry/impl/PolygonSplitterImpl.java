@@ -18,7 +18,7 @@ import de.incentergy.geometry.utils.GeometryUtils;
 /**
  * {@link PolygonSplitter} implementation based on the algorithm by Sumit Khetarpal
  *
- * @see http://www.khetarpal.org/polygon-splitting/
+ * @see <a href="http://www.khetarpal.org/polygon-splitting/">Dividing A Polygon In Any Given Number Of Equal Areas</a>
  */
 public class PolygonSplitterImpl {
 
