@@ -21,7 +21,6 @@
   <scm>
     <url>https://github.com/ManuelB/polysplit.git</url>
     <connection>scm:git:https://github.com/ManuelB/polysplit.git</connection>
-    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
