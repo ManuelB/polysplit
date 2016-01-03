@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.incentergy.geometry</groupId>
   <artifactId>polygon-splitter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Polygon Splitter</name>
   <description>The goal of this project is to take a polygon and split it into n parts having equal areas</description>
   <url>https://github.com/ManuelB/polysplit</url>
@@ -21,6 +21,7 @@
   <scm>
     <url>https://github.com/ManuelB/polysplit.git</url>
     <connection>scm:git:https://github.com/ManuelB/polysplit.git</connection>
+    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
@@ -141,6 +142,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
   <profiles>
     <profile>
       <id>release-sign-artifacts</id>
